@@ -1,0 +1,19 @@
+name: 'CocoaPods update checker'
+description: 'CocoaPods new package version checker'
+author: 'MeilCli'
+branding:
+  icon: arrow-up
+  color: blue
+inputs:
+  execute_directories:
+    description: 'execute directories of pod outdated command'
+outputs:
+  has_pod_update:
+    description: 'has new package version information'
+  pod_update_text:
+    description: 'new package version information text'
+  pod_update_json:
+    description: 'new package version information json'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
