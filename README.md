@@ -1,6 +1,6 @@
 # cocoapods-update-check-action
 ![](https://github.com/MeilCli/cocoapods-update-check-action/workflows/CI/badge.svg)  
-JavaScript based CocoaPods new package version check action for GitHub Actions.
+CocoaPods new package version check action for GitHub Actions.
 
 ## Required
 This action must execute on macOS.
@@ -19,7 +19,7 @@ jobs:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: MeilCli/cocoapods-update-check-action@v2
+    - uses: MeilCli/cocoapods-update-check-action@v3
       id: outdated
     - uses: 8398a7/action-slack@v2
       if: steps.outdated.outputs.has_pod_update != 'false'
@@ -31,6 +31,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 ```
+You can also pin to a [specific release](https://github.com/MeilCli/cocoapods-update-check-action/releases) version in the format `@v3.x.x`
 
 ## input
 - `execute_directories`
