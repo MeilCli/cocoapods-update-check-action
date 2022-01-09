@@ -77,7 +77,9 @@ async function run() {
         core.setOutput("pod_update_text", outputText);
         core.setOutput("pod_update_json", JSON.stringify(result));
     } catch (error) {
-        core.setFailed(error.message);
+        if (error instanceof Error) {
+            core.setFailed(error.message);
+        }
     }
 }
 
