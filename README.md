@@ -1,5 +1,5 @@
 # cocoapods-update-check-action
-![](https://github.com/MeilCli/cocoapods-update-check-action/workflows/CI/badge.svg)  
+[![CI-Master](https://github.com/MeilCli/cocoapods-update-check-action/actions/workflows/ci-master.yml/badge.svg)](https://github.com/MeilCli/cocoapods-update-check-action/actions/workflows/ci-master.yml)  
 CocoaPods new package version check action for GitHub Actions.
 
 ## Required
