@@ -48,8 +48,11 @@ You can also pin to a [specific release](https://github.com/MeilCli/cocoapods-up
 - `pod_update_json`
   - new package version information json
 
-## Contributing
+## Contributes
+[<img src="https://gist.github.com/MeilCli/72686c046982a5c1dcb270a047444f01/raw/82fb28940dcc8f03cc4073a81f6cf53ea7dc13f1/metrics_contributors.svg">](https://github.com/MeilCli/cocoapods-update-check-action/graphs/contributors)
+
+### Could you want to contributes?
 see [Contributing.md](./.github/CONTRIBUTING.md)
 
 ## License
-[MIT License](LICENSE).
+[<img src="https://gist.github.com/MeilCli/72686c046982a5c1dcb270a047444f01/raw/82fb28940dcc8f03cc4073a81f6cf53ea7dc13f1/metrics_licenses.svg">](LICENSE)
